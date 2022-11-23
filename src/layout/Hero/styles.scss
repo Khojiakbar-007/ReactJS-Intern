@@ -1,0 +1,73 @@
+.hero {
+    .container-fluid {
+        padding: 14px 50px 100px;
+    }
+
+    &__about {
+        width: 533px;
+    }
+
+    &__images-container {
+        position: relative;
+        width   : 438px;
+        height  : 450px;
+
+        & .image {
+            position: absolute;
+            z-index : 2;
+
+            &.anim-image {
+                &-1 {
+                    top : 52px;
+                    right: 265px;
+                }
+
+                &-2 {
+                    top : 0px;
+                    right: 109px;
+                }
+
+                &-3 {
+                    top : 174px;
+                    right: 344px;
+                }
+
+                &-4 {
+                    top : 169.5px;
+                    right: 155px;
+                }
+
+                &-5 {
+                    top : 195px;
+                    right: 8px;
+                }
+
+                &-6 {
+                    top : 296.5px;
+                    right: 288px;
+                }
+
+                &-7 {
+                    top : 304px;
+                    right: 90px;
+                }
+            }
+        }
+
+        & .dots {
+            position: absolute;
+            z-index : 1;
+
+            &--cyan {
+                top: 42px;
+                right: 0;
+            }
+
+            &--yellow {
+                top: 297px;
+                right: 248px;
+            }
+        }
+    }
+
+}

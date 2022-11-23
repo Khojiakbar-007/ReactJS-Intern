@@ -1,0 +1,38 @@
+.chart {
+    & .chart-numbers-cont {
+        width: 100%;
+    }
+
+    &__radial-bar-chart {
+        height: 596px;
+        position: relative;
+
+        & .recharts-surface {
+            transform: rotateY(180deg);
+
+        }
+
+        & .background {
+            position: absolute;
+            top     : 0;
+            left    : 0;
+            opacity : 0.1;
+        }
+    }
+
+    & .numbers {
+        width: 410px;
+
+        &__desc {
+            width: 252px;
+        }
+
+        &__amount {
+            width      : 102px;
+            font-weight: 700;
+            font-size  : 20px;
+            line-height: 20px;
+            text-align : right;
+        }
+    }
+}

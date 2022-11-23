@@ -1,0 +1,9 @@
+@import url('./_variables.scss');
+@import url('./_reset.scss');
+@import url('./_global-styles.scss');
+
+// for animation
+body[data-aos-duration='4000'] [data-aos],
+[data-aos][data-aos][data-aos-duration='4000'] {
+    transition-duration: 4000ms;
+}

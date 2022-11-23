@@ -1,0 +1,136 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Ubuntu, sans-serif;
+    color      : var(--color-1);
+    background : linear-gradient(273.84deg, #050D7A 0.1%, #407AFF 50%);
+    animation  : bg-Animation 60s ease-in-out 0s infinite;
+}
+
+@keyframes bg-Animation {
+    0% {
+        background: linear-gradient(273.84deg, #050D7A 0.1%, #407AFF 50%);
+    }
+
+    5% {
+        background: linear-gradient(273.84deg, #050D7A 5%, #407AFF 55%);
+    }
+
+    10% {
+        background: linear-gradient(273.84deg, #050D7A 10%, #407AFF 60%);
+    }
+
+    15% {
+        background: linear-gradient(273.84deg, #050D7A 15%, #407AFF 65%);
+    }
+
+    20% {
+        background: linear-gradient(273.84deg, #050D7A 20%, #407AFF 70%);
+    }
+
+    25% {
+        background: linear-gradient(273.84deg, #050D7A 25%, #407AFF 75%);
+    }
+
+    30% {
+        background: linear-gradient(273.84deg, #050D7A 30%, #407AFF 80%);
+    }
+
+    35% {
+        background: linear-gradient(273.84deg, #050D7A 35%, #407AFF 85%);
+    }
+
+    40% {
+        background: linear-gradient(273.84deg, #050D7A 40%, #407AFF 90%);
+    }
+
+    45% {
+        background: linear-gradient(273.84deg, #050D7A 45%, #407AFF 95%);
+    }
+
+    50% {
+        background: linear-gradient(273.84deg, #050D7A 50%, #407AFF 99.9%);
+    }
+
+    55% {
+        background: linear-gradient(273.84deg, #050D7A 45%, #407AFF 95%);
+    }
+
+    60% {
+        background: linear-gradient(273.84deg, #050D7A 40%, #407AFF 90%);
+    }
+
+    65% {
+        background: linear-gradient(273.84deg, #050D7A 35%, #407AFF 85%);
+    }
+
+    70% {
+        background: linear-gradient(273.84deg, #050D7A 30%, #407AFF 80%);
+    }
+
+    75% {
+        background: linear-gradient(273.84deg, #050D7A 25%, #407AFF 75%);
+    }
+
+    80% {
+        background: linear-gradient(273.84deg, #050D7A 20%, #407AFF 70%);
+    }
+
+    85% {
+        background: linear-gradient(273.84deg, #050D7A 15%, #407AFF 65%);
+    }
+
+    90% {
+        background: linear-gradient(273.84deg, #050D7A 10%, #407AFF 60%);
+    }
+
+    95% {
+        background: linear-gradient(273.84deg, #050D7A 5%, #407AFF 55%);
+    }
+
+    100% {
+        background: linear-gradient(273.84deg, #050D7A 0.1%, #407AFF 50%);
+    }
+}
+
+* {
+    margin : 0;
+    padding: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+// img {
+//     width : 100%;
+//     height: auto;
+// }
+
+img {
+    max-width : 100%;
+    max-height: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color          : inherit;
+}
+
+
+input,
+textarea {
+    border: none;
+
+    &:focus {
+        outline: none;
+    }
+}

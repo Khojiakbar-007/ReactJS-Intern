@@ -1,0 +1,9 @@
+.sub-deps {
+    &__departments {
+        width: 415px;
+
+        li:not(:last-of-type) {
+            margin-bottom: 25px;
+        }
+    }
+}

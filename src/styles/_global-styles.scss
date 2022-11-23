@@ -1,0 +1,62 @@
+.container-fluid {
+    margin   : auto;
+    max-width: 1200px;
+    padding  : 100px 50px;
+}
+
+////////////////////////////////
+
+.pointer {
+    cursor: pointer;
+}
+
+.text-truncate {
+    overflow     : hidden;
+    text-overflow: ellipsis;
+    white-space  : nowrap;
+}
+
+.text-lowercase {
+    text-transform: lowercase;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.upper-text {
+    text-transform: uppercase;
+}
+
+.capital-text {
+    text-transform: capitalize;
+}
+
+.margin-centre {
+    margin-left : auto;
+    margin-right: auto;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.pos-rel {
+    position: relative;
+}
